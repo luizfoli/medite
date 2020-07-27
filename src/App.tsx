@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
 
+import ManMedite from './man-meditation.jpg';
+
+
+
+
 function App() {
   return (
     <div className="App">
-      oi
+      <img
+        src={ManMedite}
+        width='450'/>
     </div>
   );
 }
