@@ -8,7 +8,7 @@ import ManMedite from './man-meditation.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <img
         src={ManMedite}
         width='450'/>
